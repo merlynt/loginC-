@@ -1,6 +1,0 @@
-C:\Users\merly\source\repos\Proyecto Reservas\datos\bin\Debug\datos.dll
-C:\Users\merly\source\repos\Proyecto Reservas\datos\bin\Debug\datos.pdb
-C:\Users\merly\source\repos\Proyecto Reservas\datos\obj\Debug\datos.csproj.AssemblyReference.cache
-C:\Users\merly\source\repos\Proyecto Reservas\datos\obj\Debug\datos.csproj.CoreCompileInputs.cache
-C:\Users\merly\source\repos\Proyecto Reservas\datos\obj\Debug\datos.dll
-C:\Users\merly\source\repos\Proyecto Reservas\datos\obj\Debug\datos.pdb

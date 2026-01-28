@@ -1,9 +1,0 @@
-C:\Users\merly\source\repos\Proyecto Reservas\negocios\bin\Debug\negocios.dll
-C:\Users\merly\source\repos\Proyecto Reservas\negocios\bin\Debug\negocios.pdb
-C:\Users\merly\source\repos\Proyecto Reservas\negocios\bin\Debug\datos.dll
-C:\Users\merly\source\repos\Proyecto Reservas\negocios\bin\Debug\datos.pdb
-C:\Users\merly\source\repos\Proyecto Reservas\negocios\obj\Debug\negocios.csproj.AssemblyReference.cache
-C:\Users\merly\source\repos\Proyecto Reservas\negocios\obj\Debug\negocios.csproj.CoreCompileInputs.cache
-C:\Users\merly\source\repos\Proyecto Reservas\negocios\obj\Debug\negocios.csproj.Up2Date
-C:\Users\merly\source\repos\Proyecto Reservas\negocios\obj\Debug\negocios.dll
-C:\Users\merly\source\repos\Proyecto Reservas\negocios\obj\Debug\negocios.pdb
