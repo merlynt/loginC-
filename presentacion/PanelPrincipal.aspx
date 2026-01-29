@@ -11,7 +11,8 @@
     <form id="form1" runat="server">
         <div>
             <h2>Bienvenidos al panel principal</h2>
-
+            <asp:Label ID="bienvenidoLabel" runat="server" Text="Label"></asp:Label>
+            <asp:Button ID="cerrarSessionButton" runat="server" Text="Button" OnClick="btnCerrarSesion_Click" />
         </div>
     </form>
 </body>

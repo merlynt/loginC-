@@ -20,6 +20,7 @@ namespace presentacion
 
             if (CNusuario.AccesoAlSistema(usuarioTextBox.Text, contrasenaTextBox.Text))
             {
+                Session["usuario"] = usuarioTextBox.Text;
                 Response.Redirect("PanelPrincipal.aspx");
             }
             else
