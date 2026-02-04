@@ -11,7 +11,7 @@ namespace presentacion
 {
 
 
-    public partial class PanelPrincipal
+    public partial class WebForm1
     {
 
         /// <summary>
@@ -33,21 +33,12 @@ namespace presentacion
         protected global::System.Web.UI.WebControls.Label bienvenidoLabel;
 
         /// <summary>
-        /// Control ButtonHabitaciones.
+        /// Control dvgHabitaciones.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonHabitaciones;
-
-        /// <summary>
-        /// Control cerrarSessionButton.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button cerrarSessionButton;
+        protected global::System.Web.UI.WebControls.GridView dvgHabitaciones;
     }
 }

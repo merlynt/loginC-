@@ -27,5 +27,12 @@ namespace presentacion
             Session.Abandon();
             Response.Redirect("index.aspx");
         }
+
+        protected void btnHabitaciones_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("Habitaciones.aspx");
+        }
     }
 }
