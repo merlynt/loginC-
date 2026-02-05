@@ -28,5 +28,23 @@ namespace datos
             }
             return dt;
         }
+
+        public bool AgregarHabitacion(int numero, string descripcion, int cant_huespedes)
+        {
+            using(SqlConnection con = Conexion.obtenerConexion())
+            {
+                con.Open();
+                using(SqlCommand cmd = new SqlCommand("INSERT INTO habitaciones (numero, descripcion, cant_huespedes) VALUES (@numero, @descripcion, @cant_huespedes)", con))
+                {
+                    cmd.Parameters.AddWithValue("@numero", numero);
+                    cmd.Parameters.AddWithValue("@descripcion", descripcion);
+                    cmd.Parameters.AddWithValue("@cant_huespedes", cant_huespedes);
+                    int filasAfectadas = cmd.ExecuteNonQuery();
+                    con.Close();
+                    return filasAfectadas > 0;
+                }
+                
+            }
+        }
     }
 }

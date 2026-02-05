@@ -16,5 +16,10 @@ namespace negocios
         {
             return CDHabitaciones.ObtenerHabitaciones();
         }
+
+        public bool AgregarHabitacion(int numero, string descripcion, int cant_huespedes)
+        {
+            return CDHabitaciones.AgregarHabitacion(numero, descripcion, cant_huespedes);
+        }
     }
 }

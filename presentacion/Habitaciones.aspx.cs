@@ -27,6 +27,22 @@ namespace presentacion
             dvgHabitaciones.DataBind();
         }
 
+        protected void btnAgregar_Click(object sender, EventArgs e)
+        {
+            int numero = Convert.ToInt32(txtNumero.Text);
+            string descripcion = txtDescripcion.Text;
+            int cant_huespedes = Convert.ToInt32(txtCantHuespedes.Text);
+            bool agregado = CNHabitaciones.AgregarHabitacion(numero, descripcion, cant_huespedes);
+            if(agregado)
+            {
+                Response.Write("<script>alert('Habitación agregada correctamente.');</script>");
+                CargarGrid();
+            }
+            else
+            {
+                Response.Write("<script>alert('Error al agregar la habitación.');</script>");
+            }
+        }
 
 
     }
