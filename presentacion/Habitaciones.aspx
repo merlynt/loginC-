@@ -21,12 +21,18 @@
                 <asp:Button ID="btnAgregar" runat="server" Text="Agregar" OnClick="btnAgregar_Click" /> <br />
             </div>
             <asp:Label ID="bienvenidoLabel" runat="server" Text="Label"></asp:Label>
-            <asp:GridView ID="dvgHabitaciones" runat="server" AutoGenerateColumns ="false">
+            <asp:GridView ID="dvgHabitaciones" runat="server" AutoGenerateColumns="false"
+                DataKeyNames="id_habitaciones" OnRowEditing="dvgHabitaciones_RowEditing"
+                OnRowDeleting="dvgHabitaciones_RowDeleting" 
+                OnRowCancelingEdit="dvgHabitaciones_RowCancelingEdit" 
+                OnRowUpdating="dvgHabitaciones_RowUpdating" >
                 <Columns>
                     <asp:BoundField DataField="id_habitaciones" HeaderText="ID" />
                     <asp:BoundField DataField="numero" HeaderText="#" />
                     <asp:BoundField DataField="descripcion" HeaderText="Descripcion" />
                     <asp:BoundField DataField="cant_huespedes" HeaderText="Max-Personas" />
+                    <asp:CommandField ShowEditButton="true" EditText ="Editar" />
+                    <asp:CommandField ShowDeleteButton="true" DeleteText ="Eliminar" />
                 </Columns>
             </asp:GridView>
         </div>
